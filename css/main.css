@@ -1,0 +1,49 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 0 30px;
+}
+
+/* jumbotron */
+/* .cover_image {
+    background-image: url("../images/theater-image-background.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.cover_image img{
+    height: 300px;
+    width: 100%;
+}
+
+.main{
+    background-color: white;
+    color: black;
+}
+
+#date{
+    background-color: grey;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
