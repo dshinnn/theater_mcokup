@@ -25,16 +25,19 @@ nav li {
 }
 
 /* jumbotron */
-/* .cover_image {
-    background-image: url("../images/theater-image-background.png");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
-.cover_image img{
-    height: 300px;
+#cover_image{
+    height: auto;
     width: 100%;
+}
+
+#cover_image_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
 }
 
 .main{
@@ -43,13 +46,34 @@ nav li {
 }
 
 #date{
-    background-color: grey;
+    background-color: rgb(236, 236, 236);
     margin-top: 50px;
     margin-bottom: 10px;
+    border: 1px solid grey;
+    padding: 0px 50px;
 }
 
 .feature_item{
     display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid grey;
+    border-radius: 5px;
     padding: 20px;
+}
+
+.feature_item ul{
+    list-style-type: none;
+}
+
+.feature_item img{
+    width: 200px;
+    height: auto;
+}
+
+input{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    align-self: center;
+    color: white;
 }
