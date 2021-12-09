@@ -47,3 +47,9 @@ nav li {
     margin-top: 50px;
     margin-bottom: 10px;
 }
+
+.feature_item{
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
