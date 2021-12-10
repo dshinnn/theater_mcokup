@@ -81,3 +81,31 @@ nav li {
     border: 1px solid rgb(201, 130, 0);
     border-radius: 2px;
 }
+
+.foot{
+    height: auto;
+    background-color: black;
+    color: white;
+    align-content: center;
+    padding: 90px;
+}
+
+.foot ul{
+    list-style-type: none;
+}
+
+.foot li{
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    margin-right: 10px;
+    color: orange;
+    font-size: 30px;
+}
