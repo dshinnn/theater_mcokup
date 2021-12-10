@@ -51,11 +51,12 @@ nav li {
     margin-bottom: 10px;
     border: 1px solid grey;
     padding: 0px 50px;
+    font-weight: bold;
 }
 
 .feature_item{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     border-bottom: 1px solid grey;
     border-radius: 5px;
     padding: 20px;
@@ -70,10 +71,13 @@ nav li {
     height: auto;
 }
 
-input{
+.button{
     height: 50px;
-    background-color: orange;
     display: flex;
     align-self: center;
+    margin-left: auto;
     color: white;
+    background-color: orange;
+    border: 1px solid rgb(201, 130, 0);
+    border-radius: 2px;
 }
